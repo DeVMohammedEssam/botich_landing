@@ -1,0 +1,33 @@
+nav {
+  background-color: #fff;
+  border-radius: 32px;
+  height: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 95vw;
+  left: 0;
+  right: 0;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+ul > li {
+  margin-right: 20px;
+}
+li a {
+  color: #999;
+}
+li a.active {
+  color: #3b8f5d;
+}
+
+.avoid-navbar {
+  padding-top: 80px;
+}

@@ -1,0 +1,8 @@
+.home header {
+  background-image: url("/images/landing_bg_cropped.svg");
+  background-repeat: no-repeat;
+  background-size: 600px 1200px;
+  background-position: 0 center;
+  width: 100vw;
+  height: 100vh;
+}
