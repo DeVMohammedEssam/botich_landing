@@ -1,0 +1,38 @@
+.home header {
+  width: 100vw;
+  min-height: 120vh;
+  position: relative;
+  overflow-x: hidden;
+}
+.home header::after {
+  content: "";
+  display: none;
+  @include mediaQuery("lg") {
+    position: absolute;
+    z-index: -1;
+    display: block;
+
+    background-image: url("/images/landing_bg_cropped.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 0%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 120vh;
+    width: 100%;
+  }
+}
+.home .services {
+  padding-top: 20px;
+}
+
+.home .services .text-container {
+  max-width: 400px;
+  color: #333;
+  margin-bottom: 30px;
+  @include mediaQuery("lg") {
+    color: #fff;
+  }
+}

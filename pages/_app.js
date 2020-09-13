@@ -1,7 +1,5 @@
-import "styles/home.css";
-import "styles/careers.css";
-import "styles/global.css";
-import "styles/components/navbar.css";
+import "styles/style.scss";
+
 function CustomApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }

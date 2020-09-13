@@ -1,0 +1,43 @@
+.cofounders-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cofounder-card {
+  &:first-child {
+    margin-right: 40px;
+  }
+  border: 1px solid #02007d;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 100px;
+  width: 300px;
+
+  padding: 10px 10px 10px 120px;
+  margin-bottom: 30px;
+  .img-container {
+    position: absolute;
+    left: -30px;
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 2px;
+    border: 1px solid #02007d;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: inherit;
+    }
+  }
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
