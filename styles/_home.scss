@@ -1,8 +1,11 @@
+/** @format */
+.home {
+  overflow-x: hidden;
+}
 .home header {
   width: 100vw;
   min-height: 120vh;
   position: relative;
-  overflow-x: hidden;
 }
 .home header::after {
   content: "";
