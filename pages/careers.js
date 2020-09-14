@@ -5,7 +5,11 @@ function careers() {
   return (
     <Layout>
       <div className="careers avoid-navbar">
+         
         <SearchWidget />
+        <div className="container">
+
+        
         <main>
           <JobCard
             title="Junior Software enigneer"
@@ -54,6 +58,7 @@ function careers() {
             skills={["Problem solving", "Motivating", "Resourcefulness"]}
           />
         </main>
+        </div>
       </div>
     </Layout>
   );

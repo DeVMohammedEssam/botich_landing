@@ -1,6 +1,6 @@
 .careers {
   display: grid;
-  grid-template-areas: "search main main";
+  grid-template-areas: "search  main main  ";
   .search-widget {
     grid-area: "search";
     min-width: 150px;
