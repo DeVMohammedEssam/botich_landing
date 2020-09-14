@@ -1,3 +1,5 @@
+/** @format */
+
 function CofounderCard({ imgSrc, name, skills = [] }) {
   return (
     <div className="cofounder-card">
