@@ -20,7 +20,7 @@ const Home = () => (
               <div className="row">
                 <div className="col-12 col-lg-6">
                   <div className="text-container">
-                    <h4 style={{ marginBottom: 20 }}>Our Services</h4>
+                    <h2 style={{ marginBottom: 20 }}>Our Services</h2>
                     <p>
                       Botish specialist in chatbots development with respect of
                       business requirements and how to allow all people to start
