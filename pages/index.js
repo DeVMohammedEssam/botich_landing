@@ -1,7 +1,12 @@
-import Head from "next/head";
-import Layout from "components/Layout";
-import FeatureCard from "components/FeatureCard";
+/** @format */
+
 import CofounderCard from "components/CofounderCard";
+import FeatureCard from "components/FeatureCard";
+import Layout from "components/Layout";
+/** @format */
+
+import Head from "next/head";
+
 const Home = () => (
   <Layout>
     <div className="home">
