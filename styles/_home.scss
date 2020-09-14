@@ -4,7 +4,7 @@
 }
 .home header {
   width: 100vw;
-  min-height: 125vh;
+  min-height: 100vh;
   position: relative;
 }
 .home header::after {
@@ -19,12 +19,15 @@
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: 0% 0%;
+    opacity: 1;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
     height: 100%;
     width: 100%;
+  }
+  @media screen and (min-width: 1300px) {
   }
 }
 .home .services {
