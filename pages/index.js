@@ -70,7 +70,7 @@ for a business project"
       </header>
 
       <section className="who-we-are mt-4">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-lg-4">
               <div className="text-content">
@@ -83,10 +83,10 @@ for a business project"
               </div>
             </div>
 
-            <div className="col-12 col-lg-8">
+            <div className="col-12 col-lg-7 offset-lg-1">
               <div className="cofounders-container">
                 <CofounderCard
-                  imgSrc="/images/khaled.jpg"
+                  imgSrc="/images/salah.jpg"
                   name="Mohammed Salah"
                   skills={[
                     "Software engineer",
@@ -94,7 +94,7 @@ for a business project"
                   ]}
                 />
                 <CofounderCard
-                  imgSrc="/images/salah.jpg"
+                  imgSrc="/images/Khaled.jpg"
                   name="Khaled Hamoud"
                   skills={["Business developer", "Marketing and business"]}
                 />
