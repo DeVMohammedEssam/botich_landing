@@ -94,7 +94,7 @@ for a business project"
                   ]}
                 />
                 <CofounderCard
-                  imgSrc="/images/Khaled.jpg"
+                  imgSrc="/images/khaled.jpg"
                   name="Khaled Hamoud"
                   skills={["Business developer", "Marketing and business"]}
                 />
